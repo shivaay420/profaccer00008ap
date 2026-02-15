@@ -62,7 +62,7 @@ class AdminTransferPanel {
 
            
 
-            const response = await fetch("https://mytesting1-production.up.railway.app/transfer", {
+            const response = await fetch("profaccer00008ap-production.up.railway.app/transfer", {
 
                 method: "POST",
                 headers: {
@@ -138,6 +138,7 @@ class AdminTransferPanel {
 }
 
 document.addEventListener("DOMContentLoaded", () => new AdminTransferPanel());
+
 
 
 
